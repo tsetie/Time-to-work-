@@ -1,16 +1,18 @@
 {
   "name": "time-to-work",
+  "homepage": "https://tsetie.github.io/Time-to-work-/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://tsetie.github.io/Time-to-work-/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.7.7",
