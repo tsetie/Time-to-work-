@@ -1,0 +1,6 @@
+.p{
+    display: flex;
+    justify-content: center;
+    color: rgb(43, 41, 25);
+    font-family: monospace
+}
